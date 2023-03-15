@@ -328,6 +328,20 @@ tiles.setCurrentTilemap(tilemap`level2`)
 let mov_Dcha = 0
 tiles.placeOnTile(Luis, tiles.getTileLocation(0, 11))
 scene.cameraFollowSprite(Luis)
+let Goomba1 = sprites.create(assets.image`myImage`, SpriteKind.Enemy)
+Goomba1.ay = 250
+Goomba1.setVelocity(-25, 0)
+tiles.placeOnTile(Goomba1, tiles.getTileLocation(22, 11))
+let Goomba2 = sprites.create(assets.image`myImage`, SpriteKind.Enemy)
+Goomba2.ay = 250
+Goomba2.setVelocity(-25, 0)
+tiles.placeOnTile(Goomba2, tiles.getTileLocation(40, 11))
 forever(function () {
 	
+})
+forever(function () {
+    Goomba2.setVelocity(25, 0)
+    pause(3750)
+    Goomba2.setVelocity(-25, 0)
+    pause(3750)
 })

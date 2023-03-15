@@ -1,4 +1,14 @@
 {
+    "image2": {
+        "data": "hwQQABoAAAAAAAAAAADw//8P/w//AAAAAAAAAADwr/qq+h/x8QAAAAAAAAAAr6qvr6of8fQAAAAAAAAA8Pr6qvr6H/H0AAAAAAAAAPCqr6qqrx/x9AAAAAAAAADw+vqq+vof8f8AAAAAAAAAAK+qr6+qH/EAAAAAAADw/w////qq+h///wAAAAAAT0T0HxH//x8RT/QAAAAA8ERERPT/ERER8U/0AAAA8P//RERERP////9E9AAAAB8RERFE/09ERA8AT/QAAAAfERERQQ/wRP8AAPDxAAAA8B//H0/0AE8PAAAA/wAAAADw//9ERA//AAAAAAAAAAAAAAAA//8PAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage0"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAADg7gAAAAAA4O7uDvAPAADu7u4O//8A4O/u7g7//wDuHxHh3v3/4O7+/+Hd/f/u7u4f4d3d/+7u7u/u3d0N7u7u7+7d3Q3u7u4f4d3d/eDu/v/h3d3/AO4fEeHe/f8A4O/u7g7wDwAA7u7uDgAAAADg7u4OAAAAAADg7gAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
