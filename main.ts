@@ -336,12 +336,32 @@ let Goomba2 = sprites.create(assets.image`myImage`, SpriteKind.Enemy)
 Goomba2.ay = 250
 Goomba2.setVelocity(-25, 0)
 tiles.placeOnTile(Goomba2, tiles.getTileLocation(40, 11))
+let Goomba3 = sprites.create(assets.image`myImage`, SpriteKind.Enemy)
+Goomba3.ay = 250
+Goomba3.setVelocity(-25, 0)
+tiles.placeOnTile(Goomba3, tiles.getTileLocation(53, 11))
+let Goomba4 = sprites.create(assets.image`myImage`, SpriteKind.Enemy)
+Goomba4.ay = 250
+Goomba4.setVelocity(-25, 0)
+tiles.placeOnTile(Goomba4, tiles.getTileLocation(55, 11))
 forever(function () {
 	
 })
 forever(function () {
     Goomba2.setVelocity(25, 0)
-    pause(3750)
+    pause(4225)
     Goomba2.setVelocity(-25, 0)
-    pause(3750)
+    pause(4225)
+})
+forever(function () {
+    Goomba3.setVelocity(25, 0)
+    pause(4225)
+    Goomba3.setVelocity(-25, 0)
+    pause(4225)
+})
+forever(function () {
+    Goomba4.setVelocity(-50, 0)
+    pause(2100)
+    Goomba4.setVelocity(50, 0)
+    pause(2100)
 })
